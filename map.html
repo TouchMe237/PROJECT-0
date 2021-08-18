@@ -9,19 +9,136 @@
         <title>LoL</title>
     </head>
     <body>
-        <center>
-            <div class="row">
-                <div class="col-md">Regiones del mundo 
-                    <ul>
-                        <li>
-                            Demacia
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis dolores commodi, adipisci illo quam. Vel alias possimus aperiam nisi perspiciatis in ea itaque sint, minus fugit esse culpa saepe?
-                            Jonia:
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis molestias vitae sint, quisquam nesciunt necessitatibus eius dignissimos ipsa quos, nihil repellat ipsum fuga culpa rerum. Consectetur iure expedita eveniet eius?
-                        </li>
-                    </ul>
+        <header> 
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <div> 
+                    <a class="btn btn-link" href="map.html" role="button">Mapa</a>
+                    <a class="btn btn-link" href="roles.html" role="button">Roles</a> 
+                    <a class="btn btn-link" href="camp.html" role="button">Campeones</a>
                 </div>
+            </nav>         
+        </header>
+        <center>
+            <div id="mundo">
+                <img src="./runaterra.jpg"> 
             </div>
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#Demacia">
+                      Demacia
+                    </a>
+                  </div>
+                  <div id="Demacia" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum..
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#Noxus">
+                        Noxus
+                      </a>
+                    </div>
+                    <div id="Noxus" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#Jonia">
+                        Jonia
+                      </a>
+                    </div>
+                    <div id="Jonia" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#ELFRELJORD">
+                        El Freljord
+                      </a>
+                    </div>
+                    <div id="ELFRELJORD" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#Shurima">
+                        Shurima
+                      </a>
+                    </div>
+                    <div id="Shurima" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#Piltoveryzaun">
+                        Piltover y Zaun
+                      </a>
+                    </div>
+                    <div id="Piltoveryzaun" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#aguasturbias">
+                        Aguasturbias
+                      </a>
+                    </div>
+                    <div id="aguasturbias" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#Targon">
+                        Targon
+                      </a>
+                    </div>
+                    <div id="Targon" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#islas">
+                        Islas de las Sombras
+                      </a>
+                    </div>
+                    <div id="islas" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum..
+                      </div>
+                    </div>
+                  </div>
         </center>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
