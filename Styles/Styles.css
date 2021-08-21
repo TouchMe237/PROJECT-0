@@ -46,6 +46,30 @@
   }
 }
 
+@media (max-width: 600px) {
+  body .textcamp {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 601px) {
+  body .textcamp {
+    margin-top: 11%;
+  }
+}
+
+@media (max-width: 600px) {
+  body #map .color, body #mundo .color {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 600px) {
+  body #map .color, body #mundo .color {
+    margin-top: 7%;
+  }
+}
+
 body {
   background-color: white !important;
   margin: 0;
@@ -76,7 +100,6 @@ body .textinicio {
 }
 
 body .textcamp {
-  margin-top: 8%;
   color: blue;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 150%;
@@ -185,12 +208,6 @@ footer .social_footer_ul li i {
 }
 
 @media screen and (max-width: 761px) {
-  .img-fluid1 {
-    margin-top: 7%;
-  }
-}
-
-@media screen and (max-width: 400px) {
   .img-fluid1 {
     margin-top: 7%;
   }
